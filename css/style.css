@@ -31,3 +31,26 @@ a {
 li {
     list-style-type: none;
 }
+
+#entry-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.entry {
+    display: flex;
+}
+
+.entry.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#text-image {
+    width: 600px;
+    height: auto;
+}
+
