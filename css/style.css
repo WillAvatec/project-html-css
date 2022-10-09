@@ -21,7 +21,8 @@ ul {
     padding:0 40px;
 }
 
-a {
+a,
+#text {
     font-size: 18px;
     color: #E5E7E8;
     text-decoration: none;
@@ -30,6 +31,14 @@ a {
 
 li {
     list-style-type: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 0 15px;
+    border-color: #3882f6;
 }
 
 #entry-title {
@@ -53,4 +62,3 @@ li {
     width: 600px;
     height: auto;
 }
-
