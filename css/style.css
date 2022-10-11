@@ -21,7 +21,7 @@ li, a {
 }
 
 button {
-    max-width: 100px;
+    min-width: 100px;
     flex-shrink: 0;
     background-color: #3882f6;
     color: #e5e7eb;
@@ -111,13 +111,16 @@ button {
     background-color: #e5e7eb;
 }
 
+.presentation-background > .text-container > button {
+    width: 120px;
+}
+
 .presentation-background {
     display: flex;
     justify-content: baseline;
     align-items: center;
     flex-direction: row;
     padding: 20px;
-
     border-radius: 8px;
 }
 
@@ -211,7 +214,6 @@ button {
 
 .footer-section {
     justify-content: center;
-    text-align: center;
 }
 
 .footer-1 {
@@ -241,7 +243,7 @@ button {
 .footer-2 {
     display: flex;
     background-color: #FF3366;
-    height: 43px;
+    height: 53px;
     align-items: center;
     justify-content: center;
 }
