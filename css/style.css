@@ -10,25 +10,6 @@ body {
     background-size: cover; */
 }
 
-/* .top-section {
-    width: 200px;
-    height: 200px;
-    position: relative;
-  }
-  
-.top-section::after {
-    content: "";
-    background: url(/images/fondo-agua.jpg);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
- */
-
 ol, ul {
     list-style: none;
 }
@@ -144,8 +125,10 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
+    margin-right: 20px;
     text-align: left;
     max-width: 460px;
+
 /*     background-color: #72a6d1; */
 }
 
@@ -155,6 +138,8 @@ button {
     border: 10px solid #1a2127;
     border-radius: 8px;
 }
+
+
 #title {
     font-size: 48px;
     font-weight: bolder;
@@ -166,4 +151,97 @@ button {
     font-size: 18px;
     color: #011627;
     text-align: left;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f0eddd;
+}
+
+.middle-section>h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.middle-section-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    text-align: right;
+    justify-content: center;
+    font-size: 26px;
+    color: #1f2937;
+    padding: 30px 200px;
+    font-weight: bold;
+}
+
+.quote > p {
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.footer-section {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-1 {
+    background-color: #3882f6 ;
+    margin: 100px 120px;
+    padding: 30px 50px;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    border-radius: 12px;
+}
+
+.footer-1>.text {
+    text-align: left;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.footer-1 > button{
+    border: 2px solid #e5e7eb;
+    padding: 5px 20px;
+}
+
+.footer-2 {
+    display: flex;
+    background-color: #FF3366;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
 }
